@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACH,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;EAClB,MAAM,EAAE,KAAK;EACb,gBAAgB,EAAE,mCAAmC;CACxD",
-    "sources": [
-        "business_header.scss"
-    ],
-    "names": [],
-    "file": "business_header.css"
-}
