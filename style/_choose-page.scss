@@ -1,0 +1,98 @@
+.chosen_restarant {
+    height: 100vh;
+    background-image: url(../images/waiter.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none !important;
+   
+    
+    .chosen_descr {
+        background: #EB5757;
+        position: relative;
+        width: 250px;
+        border-radius: 20px;
+        padding: 20px;
+        text-decoration: none;
+        transition: .3s ease-in;
+        p {
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 0;
+            text-decoration: none;
+        }
+    }
+    .pseudo-grey {
+        background: rgb(110, 110, 110,);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        transition: .3s ease-in;
+        opacity: .5;
+    }
+
+    &:hover {
+        .chosen_descr {
+            width: 270px;
+            padding: 25px;
+        }
+        .pseudo-grey {
+            opacity: 0;
+        }
+    }
+}
+
+.chosen_user {
+    height: 100vh;
+    background-image: url(../images/clients.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-decoration: none !important;
+    .chosen_descr-user {
+        background: #EB5757;
+        position: relative;
+        width: 250px;
+        border-radius: 20px;
+        padding: 20px;
+        text-decoration: none;
+        transition: .3s ease-in;
+        p {
+            color: white;
+            text-align: center;
+            font-size: 1.5rem;
+            margin: 0;
+            text-decoration: none;
+        }
+    }
+    .pseudo-grey-user {
+        background: rgb(110, 110, 110,);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        transition: .3s ease-in;
+        opacity: .5;
+    }
+    &:hover {
+        .chosen_descr-user {
+            width: 270px;
+            padding: 25px;
+        }
+        .pseudo-grey-user {
+            opacity: 0;
+        }
+    }
+}
+
+
