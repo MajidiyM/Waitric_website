@@ -177,4 +177,35 @@ header .header_descr .second_descr {
   font-size: 1.3rem;
   width: 25%;
 }
+
+.staff_issues .stuff_issues_desc {
+  width: 100%;
+  padding: 20px;
+}
+
+.staff_issues .stuff_issues_desc h3 {
+  font-size: 2rem;
+  line-height: 45px;
+}
+
+.staff_issues .stuff_issues_desc p {
+  line-height: 40px;
+}
+
+.staff_issues .stuff_issues_img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.staff_issues .stuff_issues_img img {
+  width: 70%;
+}
 /*# sourceMappingURL=style.css.map */

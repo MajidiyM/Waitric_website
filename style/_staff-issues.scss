@@ -1,0 +1,22 @@
+.staff_issues {
+    .stuff_issues_desc {
+        width: 100%;
+        padding: 20px;
+        h3 {
+            font-size: 2rem;
+            line-height: 45px;
+        }
+        p {
+            line-height: 40px;
+        }
+    }
+    .stuff_issues_img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        img {
+            width: 70%;
+        }
+    }
+}
