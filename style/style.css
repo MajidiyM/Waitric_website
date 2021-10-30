@@ -186,7 +186,7 @@ header .header_descr .second_descr {
 
 .section_title h3 {
   font-size: 35px;
-  font-weight: 400;
+  font-weight: 800;
 }
 
 .staff_issues .stuff_issues_desc {
@@ -197,6 +197,7 @@ header .header_descr .second_descr {
 .staff_issues .stuff_issues_desc h3 {
   font-size: 2rem;
   line-height: 45px;
+  font-weight: 800;
 }
 
 .staff_issues .stuff_issues_desc p {
@@ -262,6 +263,14 @@ header .header_descr .second_descr {
 
 .results .results_block img {
   width: 200px;
+}
+
+.results .results_block .sub_num_block {
+  padding: 35px;
+}
+
+.results .results_block .sub_num_block .sub_num span {
+  font-size: 90px;
 }
 
 .contact_form {
