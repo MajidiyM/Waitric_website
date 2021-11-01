@@ -5,9 +5,16 @@ nav {
         width: 50px;
         border-radius: 50%;
     }
+    
 
-    .nav-link {
-        padding: 0;
+
+    .active_link {
+        border-radius: 10px;
+        background: #ff3e3e;
+        .active_link_a {
+            color: white !important;
+        }
     }
+    
     
 }
