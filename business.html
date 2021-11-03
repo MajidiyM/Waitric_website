@@ -1,300 +1,331 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Для заведения</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800&display=swap"
-    rel="stylesheet">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
-  <link rel="stylesheet" href="style/style.css" />
-  <title>Для заведения</title>
-</head>
-
-<body>
-  <nav class="navbar navbar-expand-lg navbar-light ">
-    
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light">
       <a class="navbar-brand" href="#">
-        <img class="logo-nav" src="images/v1_r.png" alt="">
+        <img class="logo-nav" src="images/v1_r.png" alt="" />
       </a>
-  
-    <a class="navbar-brand font-weight-bold" href="index.html">Waitric</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav mx-auto">
-        <li class="nav-item active_link">
-          <a class="nav-link active_link_a" href="#">Для Заведений <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Для Пользователей</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
-  <header>
-    <div class="header_descr">
-      <div class="first_descr">
-        <p>
-          Сделаем обслуживание ваших клиентов лёгким и быстрым
-        </p>
-      </div>
-      <div class="second_descr">
-        <p>
-          Подключитесь к партнерам Waitric прямо сейчас
-        </p>
-      </div>
-    </div>
-  </header>
-  <main>
-    <div class="section_title">
-      <h3>
-        Чем мы поможем вам
-      </h3>
-    </div>
-    <div class="staff_issues mt-5 mb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="stuff_issues_desc">
-              <h3>А где официант?</h3>
-              <p>Нехватка меню и официантов может испортить впечатление клиента о вашем заведение. Waitric — это меню и
-                личный официант в одном.</p>
-            </div>
-          </div>
-          <div class="col-md-6 p-0">
-            <div class="stuff_issues_img">
-              <img src="images/jessie-mccall-guXX_Wm-wnY-unsplash.jpg">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="staff_issues mt-5 mb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 p-0">
-            <div class="stuff_issues_img">
-              <img src="images/lefteris-kallergis-NQZiQxuIyFk-unsplash.jpg" alt="">
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="stuff_issues_desc">
-              <h3>Я это не заказывал</h3>
-              <p>Человеческий фактор играет большую роль в процессе обслуживания. Waitric предотвратит возможности
-                непонимания, конфликтов и ошибок.
-              </p>
-            </div>
-          </div>
 
+      <a class="navbar-brand font-weight-bold" href="index.html">Waitric</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item active_link">
+            <a class="nav-link active_link_a" href="#"
+              >Для заведений <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Для пользователей</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <header>
+      <div class="header_descr">
+        <div class="first_descr">
+          <p>Сделаем обслуживание ваших клиентов лёгким и быстрым</p>
+        </div>
+        <div class="second_descr">
+          <p>Подключитесь к партнерам Waitric прямо сейчас</p>
         </div>
       </div>
-    </div>
-    <div class="staff_issues mt-5 mb-5">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6">
-            <div class="stuff_issues_desc">
-              <h3>Мы ещё не добавили это блюдо в меню</h3>
-              <p>Вместе с Waitric обновление информации не будет требовать больших затрат, будь то блюдо в меню или
-                контактные данные заведения.
-              </p>
-            </div>
-          </div>
-          <div class="col-md-6 p-0">
-            <div class="stuff_issues_img">
-              <img src="images/priscilla-du-preez-hWJeh6e_N7U-unsplash.jpg" alt="">
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="results">
+    </header>
+    <main>
       <div class="section_title">
-        <h3>
-          Что вы получите
-        </h3>
+        <h3>Чем мы поможем вам</h3>
       </div>
+
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="results_block">
-
-              <span>
-                Новых посетителей
-              </span>
-              <div class="sub_num_block">
-                <p>
-                  Приложение Waitric пользуется более
-                </p>
-
-                <p class="sub_num">
-                  <span>1 000</span><br>
-                  пользователей
-                </p>
-              </div>
-
-
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <div class="issues_desc">
+              <h3>А где официант?</h3>
+              <p>
+                Нехватка меню и официантов может испортить впечатление клиента о
+                вашем заведении. Waitric — это меню и личный официант в одном.
+              </p>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="results_block">
-
-              <span>
-                Удобную админ панел
-              </span>
-              <p>
-                Где вы сможете добавлять информацию про ваши филиалы, редактировать меню, отслеживать заказы и многое
-                другое
-              </p>
-              <img src="images/admin_logo.png" alt="">
-
+          <div class="col-md-6">
+            <div class="issues_img">
+              <img src="images/jessie-mccall-guXX_Wm-wnY-unsplash.jpg" alt="" />
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="results_block">
+        </div>
 
-              <span>
-                Подробную статистику
-              </span>
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <div class="issues_img">
+              <img
+                src="images/lefteris-kallergis-NQZiQxuIyFk-unsplash.jpg"
+                alt=""
+              />
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="issues_desc">
+              <h3>Я это не заказывал</h3>
               <p>
-                Про клиентов, популярные блюда, филиалы и т.д.
+                Человеческий фактор играет большую роль в процессе обслуживания.
+                Waitric предотвратит возможности непонимания, конфликтов и
+                ошибок.
               </p>
-              <img src="images/statistics.png" alt="">
+            </div>
+          </div>
+        </div>
 
+        <div class="row mt-5 mb-5">
+          <div class="col-md-6">
+            <div class="issues_desc">
+              <h3>Мы ещё не добавили это блюдо в меню</h3>
+              <p>
+                Вместе с Waitric обновление информации не будет требовать
+                больших затрат, будь то блюдо в меню или контактные данные
+                заведения.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="issues_img">
+              <img
+                src="images/priscilla-du-preez-hWJeh6e_N7U-unsplash.jpg"
+                alt=""
+              />
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="contact_form">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="form_input">
-              <!--Section: Contact v.2-->
-              <section class="mb-4">
+      <div class="results">
+        <div class="section_title">
+          <h3>Что вы получите</h3>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="results_block">
+                <span> Новых посетителей </span>
+                <div class="sub_num_block">
+                  <p>Приложение Waitric пользуется более</p>
 
-                <!--Section heading-->
-                <h3 class="h1-responsive text-center">Оставьте заявку прямо сейчас и мы свяжемся с вами!
-                </h3>
-
-                <div class="row">
-
-                  <!--Grid column-->
-                  <div class="col-md-8 mb-md-0 mb-5">
-                    <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-
-                      <!--Grid row-->
-                      <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                          <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control">
-                            <label for="name" class="">Ваше имя</label>
-                          </div>
-                        </div>
-                        <!--Grid column-->
-
-                        <!--Grid column-->
-                        <div class="col-md-6">
-                          <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control">
-                            <label for="email" class="">Ваша почта</label>
-                          </div>
-                        </div>
-                        <!--Grid column-->
-
-                      </div>
-                      <!--Grid row-->
-
-                      <!--Grid row-->
-                      <div class="row">
-                        <div class="col-md-12">
-                          <div class="md-form mb-0">
-                            <input type="text" id="subject" name="subject" class="form-control">
-                            <label for="subject" class="">Заведение</label>
-                          </div>
-                        </div>
-                      </div>
-                      <!--Grid row-->
-
-                      <!--Grid row-->
-                      <div class="row">
-
-                        <!--Grid column-->
-                        <div class="col-md-12">
-
-                          <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="2"
-                              class="form-control md-textarea"></textarea>
-                            <label for="message">Адрес</label>
-                          </div>
-
-                        </div>
-                      </div>
-                      <!--Grid row-->
-
-                    </form>
-
-                    <div class="text-center text-md-left">
-                      <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
-                    </div>
-                    <div class="status"></div>
-                  </div>
-                  <!--Grid column-->
-
-                  <!--Grid column-->
-                  <div class="col-md-4 text-center">
-                    <h3 class="h2-responsive text-center">
-                      Если у вас остались вопросы, то можете связаться с нами
-                    </h3>
-                    <ul class="list-unstyled mb-0">
-
-                      <li><i class="fas fa-phone mt-4 fa-2x"></i> <br>
-                        <a href="tel:+998901107005">(99890) 110-70-05</a>
-                      </li>
-
-                      <li><i class="fas fa-envelope mt-4 fa-2x"></i><br>
-                        <a href="mailto:info@waitric.uz">info@waitric.uz</a>
-                      </li>
-                    </ul>
-                  </div>
-                  <!--Grid column-->
-
+                  <p class="sub_num">
+                    <span>1 000</span><br />
+                    пользователей
+                  </p>
                 </div>
-
-              </section>
-              <!--Section: Contact v.2-->
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="results_block">
+                <span> Удобную админ панель </span>
+                <p>
+                  Где вы сможете добавлять информацию про ваши филиалы,
+                  редактировать меню, отслеживать заказы и многое другое
+                </p>
+                <img src="images/admin_logo.png" alt="" />
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="results_block">
+                <span> Подробную статистику </span>
+                <p>Про клиентов, популярные блюда, филиалы и т.д.</p>
+                <img src="images/statistics.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </main>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
-  </script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
-</body>
 
+      <div class="contact_form">
+        <div class="container ">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="form_input">
+                <!--Section: Contact v.2-->
+                <section class="mb-4">
+                  <!--Section heading-->
+                  <h3 class="h1-responsive text-center">
+                    Оставьте заявку прямо сейчас и мы свяжемся с вами!
+                  </h3>
+
+                  <div class="row">
+                    <!--Grid column-->
+                    <div class="col-md-8 mb-md-0 mb-5">
+                      <form
+                        id="contact-form"
+                        name="contact-form"
+                        action="mail.php"
+                        method="POST"
+                      >
+                        <!--Grid row-->
+                        <div class="row">
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                            <div class="md-form mb-0">
+                              <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                class="form-control"
+                                placeholder="Ваше имя"
+                              />
+                              
+                            </div>
+                          </div>
+                          <!--Grid column-->
+
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                            <div class="md-form mb-0">
+                              <input
+                                type="text"
+                                id="email"
+                                name="email"
+                                class="form-control"
+                                placeholder="Ваша почта"
+                              />
+                              
+                            </div>
+                          </div>
+                          <!--Grid column-->
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                          <div class="col-md-12">
+                            <div class="md-form mb-0">
+                              <input
+                                type="text"
+                                id="subject"
+                                name="subject"
+                                class="form-control"
+                                placeholder="Заведение"
+                              />
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <!--Grid row-->
+
+                        <!--Grid row-->
+                        <div class="row">
+                          <!--Grid column-->
+                          <div class="col-md-12">
+                            <div class="md-form">
+                              <textarea
+                                type="text"
+                                id="message"
+                                name="message"
+                                rows="2"
+                                class="form-control md-textarea"
+                                placeholder="Адрес"
+                              ></textarea>
+                              
+                            </div>
+                          </div>
+                        </div>
+                        <!--Grid row-->
+                      </form>
+
+                      <div class="text-center text-md-left">
+                        <a
+                          class="btn btn-primary"
+                          onclick="document.getElementById('contact-form').submit();"
+                          >Отправить</a
+                        >
+                      </div>
+                      <div class="status"></div>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-md-4 text-center">
+                      <h3 class="h2-responsive text-center">
+                        Если у вас остались вопросы, то можете связаться с нами
+                      </h3>
+                      <ul class="list-unstyled mb-0">
+                        <li>
+                          <i class="fas fa-phone mt-4 fa-2x"></i> <br />
+                          <a href="tel:+998901107005">(99890) 110-70-05</a>
+                        </li>
+
+                        <li>
+                          <i class="fas fa-envelope mt-4 fa-2x"></i><br />
+                          <a href="mailto:info@waitric.uz">info@waitric.uz</a>
+                        </li>
+                      </ul>
+                    </div>
+                    <!--Grid column-->
+                  </div>
+                </section>
+                <!--Section: Contact v.2-->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

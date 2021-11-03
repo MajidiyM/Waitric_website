@@ -1,6 +1,7 @@
 .section_title {
-    text-align: center;
+    width: 100%;
     margin: 70px 0 60px 0;
+    text-align: center;
 
     h3 {
         font-size: 35px;
@@ -8,39 +9,22 @@
     }
 }
 
-.staff_issues {
-
-    .stuff_issues_desc {
+.issues_img {
+    img {
         width: 100%;
-        padding: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        height: 100%;
-
-        h3 {
-            font-size: 2rem;
-            line-height: 45px;
-            font-weight: 800;
-        }
-
-        p {
-            line-height: 35px;
-        }
-    }
-
-    .stuff_issues_img {
-        display: flex;
-        justify-content: center;
-        align-items: center;
         height: 400px;
-        width: 100%;
-        overflow: hidden;
         border-radius: 10px;
-        img {
-          width: 100%;
-          border-radius: 10px;
-        }
+    }
+}
+
+.issues_desc {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    h3 {
+        font-weight: 800;
     }
 }
 
@@ -75,14 +59,15 @@
 
         .sub_num_block {
             padding: 35px;
+
             .sub_num {
-            
+
                 span {
                     font-size: 90px;
                 }
             }
         }
-        
+
 
     }
 }
