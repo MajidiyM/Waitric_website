@@ -179,6 +179,73 @@ header .header_descr .second_descr {
   width: 25%;
 }
 
+@media only screen and (max-width: 1268px) {
+  header .header_descr .first_descr {
+    width: 55%;
+  }
+  header .header_descr .first_descr p {
+    font-size: 45px;
+  }
+  header .header_descr .second_descr {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  header .header_descr .first_descr {
+    width: 60%;
+  }
+  header .header_descr .first_descr p {
+    font-size: 35px;
+  }
+  header .header_descr .second_descr {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  header .header_descr .first_descr {
+    width: 100%;
+  }
+  header .header_descr .first_descr p {
+    font-size: 35px;
+  }
+  header .header_descr .second_descr {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  header .header_descr {
+    padding: 20px;
+  }
+  header .header_descr .first_descr {
+    width: 100%;
+  }
+  header .header_descr .first_descr p {
+    font-size: 25px;
+  }
+  header .header_descr .second_descr {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 366px) {
+  header .header_descr {
+    padding: 20px;
+  }
+  header .header_descr .first_descr {
+    width: 100%;
+  }
+  header .header_descr .first_descr p {
+    font-size: 20px;
+  }
+  header .header_descr .second_descr {
+    width: 100%;
+    font-size: 16px;
+  }
+}
+
 .section_title {
   width: 100%;
   margin: 70px 0 60px 0;
@@ -208,11 +275,14 @@ header .header_descr .second_descr {
       -ms-flex-pack: center;
           justify-content: center;
   height: 100%;
-  text-align: center;
 }
 
 .issues_desc h3 {
   font-weight: 800;
+}
+
+.issues_mob_version {
+  display: none;
 }
 
 .results {
@@ -261,6 +331,67 @@ header .header_descr .second_descr {
 
 .results .results_block .sub_num_block .sub_num span {
   font-size: 90px;
+}
+
+@media only screen and (max-width: 992px) {
+  .results .results_block {
+    padding: 20px 0;
+  }
+  .results .results_block .sub_num_block {
+    padding: 0;
+    font-size: 20px;
+    width: 100%;
+  }
+  .results .results_block .sub_num_block .sub_num span {
+    font-size: 45px;
+  }
+  .results .results_block p {
+    font-size: 15px;
+  }
+  .results .results_block img {
+    width: 110px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .issues_desc_version {
+    display: none;
+  }
+  .issues_mob_version {
+    display: block;
+  }
+  .results .results_block {
+    margin: 20px 0;
+    height: 290px;
+    padding: 20px 20px;
+  }
+  .results .results_block .sub_num_block {
+    font-size: 20px;
+    width: 100%;
+  }
+  .results .results_block .sub_num_block .sub_num span {
+    font-size: 45px;
+  }
+  .results .results_block img {
+    width: 110px;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .results .results_block {
+    padding: 20px 0;
+  }
+  .results .results_block .sub_num_block {
+    padding: 0;
+    font-size: 15px;
+    width: 100%;
+  }
+  .results .results_block .sub_num_block .sub_num span {
+    font-size: 35px;
+  }
+  .results .results_block img {
+    width: 110px;
+  }
 }
 
 .contact_form {

@@ -30,3 +30,86 @@ header {
         }
     }
 }
+
+@media only screen and (max-width: 1268px)  {
+    header {
+        .header_descr {
+            .first_descr {
+                width: 55%;
+                p {
+                    font-size: 45px;
+                }
+            }
+            .second_descr {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 992px)  {
+    header {
+        .header_descr {
+            .first_descr {
+                width: 60%;
+                p {
+                    font-size: 35px;
+                }
+            }
+            .second_descr {
+                width: 30%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 768px)  {
+    header {
+        .header_descr {
+            .first_descr {
+                width: 100%;
+                p {
+                    font-size: 35px;
+                }
+            }
+            .second_descr {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 448px)  {
+    header {
+        .header_descr {
+            padding: 20px;
+            .first_descr {
+                width: 100%;
+                p {
+                    font-size: 25px;
+                }
+            }
+            .second_descr {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 366px)  {
+    header {
+        .header_descr {
+            padding: 20px;
+            .first_descr {
+                width: 100%;
+                p {
+                    font-size: 20px;
+                }
+            }
+            .second_descr {
+                width: 100%;
+                font-size: 16px;
+            }
+        }
+    }
+}
